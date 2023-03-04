@@ -1,0 +1,17 @@
+This code retrieves an element from the HTML document with an ID of 
+"res" using the getElementById() method of the document object, and 
+assigns it to a constant variable called display.
+
+Then, it sets the value property of the display element to a modified
+ version of its current value. The slice() method is used to create a
+ new string that contains all but the last character of the current 
+ value. The slice() method takes two arguments: the first argument 
+ specifies the starting index of the substring, and the second argument
+ (which is negative in this case) specifies the ending index of the substring
+ from the end of the string. In this case, the second argument -1 means to 
+ exclude the last character from the substring.
+
+So, essentially, this code removes the last character from the current
+ value of the display element. This could be used, for example, in a
+ calculator application to simulate the behavior of the "backspace" key,
+ allowing the user to undo the entry of the last digit.
